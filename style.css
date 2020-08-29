@@ -1,0 +1,89 @@
+h1{
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 400;
+}
+p{
+    font-size: 23px;
+}
+.name{
+    font-size: 18px;
+}
+#name{
+   width: 200px;
+   height: 25px;
+   margin-top: 5px;
+   
+}
+.surname{
+    font-size: 18px; 
+}
+#surname{
+   width: 200px;
+   height: 25px;
+   margin-top: 20px;
+}
+.email{
+    font-size: 18px;
+}
+#email{
+    width: 200px;
+   height: 25px;
+   margin-top: 20px;
+
+}
+.current{
+    margin-top: 5px;
+    font-size: 25px;
+}
+#current{
+    margin-top: 15px;
+    
+}
+.recommend{
+    font-size: 16px;
+}
+#recommendlab{
+    font-size: 25px;
+}
+#recommend1{
+    margin: 15px 5px;
+}
+#recommend2{
+    margin: 15px 5px;
+}
+#recommend3{
+    margin: 15px 5px;
+}
+#recommend4{
+    margin: 15px 5px;
+}
+#favorite{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.favorite{
+    font-size: 25px;
+}
+
+.improvement{
+    margin-top: 10px;
+    font-size: 16px;
+     
+}
+#improvement{
+    font-size: 25px;
+}
+#improvement1{
+    margin: 15px 0px;
+    font-size: 16px;
+    }
+#improvement2{margin: 15px 0px;}
+#improvement3{margin: 15px 0px;}
+#improvement4{margin: 15px 0px;}
+#comments{margin-top: 15px;}
+.comments{
+    font-size: 25px;
+}

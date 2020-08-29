@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survay</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="result.html">
+        <div class="container">
+             <h1>Clarusway Survay Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+       
+    
+           <div class="name">
+                <label for="name"> Name <br><input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+           </div>
+    
+           <div class="surname">
+               <label for="surname">Surname <br><input type="text" name="surname" id="surname" placeholder="Enter your surname" required></label>
+           </div>
+       
+           <div class="email">
+               <label for="email">Email <br><input type="email" name="email" id="email" placeholder="user@clarusway.com" required></label>
+           </div>
+
+           <div class="current">
+               <label for="current">Which option bes describes your current role?</label><br>
+                    <select name="current" id="current" >
+                        <option value="Select Current Role" selected disabled>select current role</option>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Part Time Job">Part Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                    </select>
+
+            </div><br>
+            <label for="recommend" id="recommendlab"> Would you recommend Clarusway to a friend?  </label><br>
+            <div class="recommend">
+               
+                <input type="radio" name="recommend" id="recommend1" value="Definitely,Yes" checked>Definitely,Yes <br>
+                <input type="radio" name="recommend" value="maybe" id="recommend2">Maybe <br>
+                <input type="radio" name="recommend"  value="Not sure"
+                id="recommend3">Not sure <br>
+                <input type="radio" name="recommend" id="recommend4" value="Definitely,No">Definitely,No <br>
+
+            </div>
+
+            <div class="favorite"> 
+                <label for="favorite">What is your favorite feature of Clarusway?</label><br>
+                    <select name="favorite" id="favorite"><br>
+                        <option value="Select an option"  selected disabled>Select an option</option>
+                        <option value="courses">Courses</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="mentors">Mentors</option>
+                    </select>
+           
+            </div>
+            <label for="improvement" id="improvement">What would you like to see improved? (Check all that apply)</label><br>
+            <div class="improvement">
+                <input type="checkbox" name="improvement" value="Front-end Projects" id="improvement1">Front-end Projects <br>
+                <input type="checkbox" name="improvement" value="Back-end Projects" id="improvement2">Back-end Projects <br>
+                <input type="checkbox" name="improvement" value="Data Science" id="improvement3">Data Science <br>
+                <input type="checkbox" name="improvement" value="Additional Courses" id="improvement4">Additional Courses <br>
+            </div><br>
+
+            <div class="comments">
+                <label for="comments"> Any comments or suggestions?</label><br>
+                <textarea name="comments" id="comments" cols="25" rows="10" placeholder="Enter your comment here...Thanks for your comments..." style="height: 35px; overflow-y: scroll;"></textarea>
+                <input type="submit" value="submit">
+ 
+            </div>    
+
+        </div>
+    </form>
+</body>
+</html>
